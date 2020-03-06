@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: andymotta
+  repo: product-web
+  url: https://github.com/andymotta/product-web.git
+  version: ""
+  versionURL: ""

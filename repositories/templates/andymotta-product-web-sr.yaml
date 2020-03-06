@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: andymotta
+    provider: github
+    repository: product-web
+  name: andymotta-product-web
+spec:
+  description: Imported application for andymotta/product-web
+  httpCloneURL: https://github.com/andymotta/product-web.git
+  org: andymotta
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: product-web
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/andymotta/product-web.git
