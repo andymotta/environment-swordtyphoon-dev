@@ -11,3 +11,9 @@ dependencies:
   url: https://github.com/andymotta/wriked.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: andylmotta
+  repo: skiapp
+  url: https://github.com/andylmotta/skiapp.git
+  version: ""
+  versionURL: ""
