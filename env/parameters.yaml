@@ -1,0 +1,15 @@
+adminUser:
+  password: local:swordtyphoon/adminUser:password
+  username: admin
+docker:
+  email: andylmotta@gmail.com
+  password: local:swordtyphoon/docker:password
+  url: https://index.docker.io/v1/
+  username: andylukem
+enableDocker: true
+pipelineUser:
+  email: andylmotta@gmail.com
+  token: local:swordtyphoon/pipelineUser:token
+  username: andymotta
+prow:
+  hmacToken: local:swordtyphoon/prow:hmacToken
