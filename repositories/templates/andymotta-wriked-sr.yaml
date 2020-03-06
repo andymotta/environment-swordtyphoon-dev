@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: andymotta
+    provider: github
+    repository: wriked
+  name: andymotta-wriked
+spec:
+  description: Imported application for andymotta/wriked
+  httpCloneURL: https://github.com/andymotta/wriked.git
+  org: andymotta
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: wriked
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/andymotta/wriked.git
